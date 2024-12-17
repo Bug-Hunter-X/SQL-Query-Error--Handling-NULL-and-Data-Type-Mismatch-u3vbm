@@ -1,0 +1,3 @@
+# SQL Query Error: Handling NULL and Data Type Mismatch
+
+This repository demonstrates a common SQL error related to handling NULL values and implicit type coercion in queries. The `bug.sql` file contains a query that unintentionally excludes rows with NULL salary values and showcases type mismatch problems. The solution is provided in `bugSolution.sql` which provides robust handling of NULLs using the `IS NOT NULL` condition and performs explicit type casting for comparisons, ensuring accurate query results and data integrity. 
